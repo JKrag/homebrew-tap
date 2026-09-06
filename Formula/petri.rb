@@ -1,15 +1,15 @@
 class Petri < Formula
   desc "The petridish dashboard: a ratatui TUI over ~/.petridish/projects.json."
   homepage "https://github.com/JKrag/petridish"
-  version "1.0.0-beta.1"
+  version "1.0.0-beta.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.1/petri-aarch64-apple-darwin.tar.xz"
-      sha256 "2af8c6de11faf0c40860deb671bb2591e1fab25371b3d79f195fc50db69e2d95"
+      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.2/petri-aarch64-apple-darwin.tar.xz"
+      sha256 "080e922bb0cd90b6ba215dff0db066e17aca24474e54f4c18bd50454a4e78cfb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.1/petri-x86_64-apple-darwin.tar.xz"
-      sha256 "437ff0cd7199291f337c39412872cc86d687671f94cac93cebaabe48ee2c0cc5"
+      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.2/petri-x86_64-apple-darwin.tar.xz"
+      sha256 "191b178356edcead6251149ca47314f7b21d488fbe71bdd160773a99fdbd040b"
     end
   end
   license "GPL-3.0-or-later"
