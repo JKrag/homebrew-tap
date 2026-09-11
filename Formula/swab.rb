@@ -1,15 +1,15 @@
 class Swab < Formula
   desc "The petridish scanner: crawls project roots, reads git state, senses agent activity."
   homepage "https://github.com/JKrag/petridish"
-  version "1.0.0-beta.3"
+  version "1.0.0-beta.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.3/swab-aarch64-apple-darwin.tar.xz"
-      sha256 "f5dd8758a87e685dc884c52d8b7787954c044de21471ef55f337640648d33254"
+      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.4/swab-aarch64-apple-darwin.tar.xz"
+      sha256 "714967d093aefada3c7aae88598b6940600cd3695977c29e98ed4d9ade2330a5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.3/swab-x86_64-apple-darwin.tar.xz"
-      sha256 "bc9e430c67e7250768b7be47c018b0083c4a36e1b95c3246408ea7754e1c1c69"
+      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.4/swab-x86_64-apple-darwin.tar.xz"
+      sha256 "119d464997933090d3f2027ebc8f13158e779e169e4ce1b8eb458ac91cde196a"
     end
   end
   license "GPL-3.0-or-later"
