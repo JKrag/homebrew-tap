@@ -1,15 +1,15 @@
 class Petridish < Formula
   desc "Install, verify and drive petridish: the launchd daemon, the Claude Code hook, and the menu-bar plugin."
   homepage "https://github.com/JKrag/petridish"
-  version "1.0.0-beta.5"
+  version "1.0.0-beta.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.5/petri-dish-aarch64-apple-darwin.tar.xz"
-      sha256 "53895ade86c31fc0eb71c30331d0ba75ab05f11e70327fecc75a473290a1ba3d"
+      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.6/petri-dish-aarch64-apple-darwin.tar.xz"
+      sha256 "259a9a8fd34386bb1688b5e3b6ef9b4f56395a1a1bb370d99f749d581c4337e8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.5/petri-dish-x86_64-apple-darwin.tar.xz"
-      sha256 "78873de7685995e9d418680819705ac246ce89831e0a94321cc073f64d98284d"
+      url "https://github.com/JKrag/petridish/releases/download/v1.0.0-beta.6/petri-dish-x86_64-apple-darwin.tar.xz"
+      sha256 "05a96573d455bb4992ff04fbae927c8b34ddc9fc05ec3e47f3f13f619fb67bc3"
     end
   end
   license "GPL-3.0-or-later"
